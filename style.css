@@ -1,0 +1,37 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.inputContainer input {
+    width: 90%;
+  }
+  .toDo-list input {
+    width: 50%;
+  }
+@media (min-width: 1024px) {
+  .inputContainer button {
+    position: absolute;
+    right: 22%;
+  }
+  .inputContainer {
+    position: relative;
+  }
+  .inputContainer input {
+    width: 60%;
+  }
+  .toDo-list input {
+    width: 30%;
+  }
+  .toDo-list {
+    position: relative;
+  }
+  .completeButton {
+    position: absolute;
+    right: 38.5%;
+  }
+  .removeButton {
+    position: absolute;
+    right: 35.5%;
+  }
+}
