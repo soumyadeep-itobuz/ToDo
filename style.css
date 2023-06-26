@@ -3,16 +3,42 @@ body {
   margin: 0px;
   box-sizing: border-box;
 }
-.inputContainer {
-  width: 90%;
-}
-.task {
-  width: 80vw !important;
-}
-.taskList {
-  width: 58vw;
+
+#inputText {
+  width: 95%;
 }
 
-.task:focus {
+#inputText:focus {
   outline: none;
+}
+
+#list {
+  width: 93%;
+  overflow-x: auto;
+}
+
+.do-list {
+  width: 55% !important;
+}
+
+.listContainer {
+  max-height: 33rem !important;
+  overflow-y: auto;
+}
+
+.compContainer {
+  max-height: 33rem !important;
+  overflow-y: auto;
+}
+
+.comp-list {
+  width: 55% !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.line-through {
+  text-decoration: line-through !important;
 }
