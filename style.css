@@ -42,3 +42,8 @@ body {
 .line-through {
   text-decoration: line-through !important;
 }
+
+#completedList {
+  width: 93%;
+  overflow-x: auto;
+}
